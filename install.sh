@@ -28,6 +28,11 @@ cd ..
 rm -rf Lucid_Somnambulist
 git clone https://github.com/zackees/Lucid_Somnambulist
 cd Lucid_Somnambulist
+# Check if the environment exists and remove it
+if conda info --envs | grep -q '^somn '; then
+    conda env remove --name somn
+fi
+# Create the environment
 conda env create --name somn --file Lucid_Somnambulist/somn.yml
 conda activate somn
 pip install .
