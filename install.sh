@@ -20,7 +20,7 @@ conda --version
 rm -rf molli_firstgen
 git clone https://github.com/SEDenmarkLab/molli_firstgen.git
 cd molli_firstgen
-git pull origin/main
+git pull
 pip install .
 cd ..
 
