@@ -1,4 +1,4 @@
-# Run this command to install everything.
+# Run this command to install everything:
 # curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | bash
 
 set -e
