@@ -1,3 +1,6 @@
+# Run this command to install everything.
+# curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | bash
+
 set -e
 
 # Check if Miniconda is already installed
