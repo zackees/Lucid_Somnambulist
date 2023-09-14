@@ -44,6 +44,8 @@ pip install .
 cd ..
 
 # Test the installation
+source .
+conda init
 conda activate somn
 python -c "import somn"
 if [ $? -eq 0 ]; then
