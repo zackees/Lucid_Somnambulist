@@ -3,6 +3,9 @@
 
 set -e
 
+conda deactivate || true
+
+
 # Check if Miniconda is already installed
 if [ ! -d "$HOME/miniconda3" ]; then
   # If it's not installed, download and install it
