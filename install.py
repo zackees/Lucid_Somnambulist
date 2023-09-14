@@ -1,4 +1,4 @@
-# curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | bash
+# curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | python3
 
 import os
 import subprocess
