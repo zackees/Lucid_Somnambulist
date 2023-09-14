@@ -1,3 +1,5 @@
+# curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | bash
+
 import os
 import subprocess
 
