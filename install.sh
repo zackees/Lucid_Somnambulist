@@ -38,6 +38,7 @@ if conda info --envs | grep -q '^somn '; then
 fi
 # Create the environment
 conda env create --name somn --file Lucid_Somnambulist/somn.yml
+conda init
 conda activate somn
 cd Lucid_Somnambulist
 pip install .
