@@ -4,6 +4,7 @@ import os
 import subprocess
 
 def run_command(command):
+    print(f"Running command: \"{command\"}")
     return subprocess.run(command, shell=True, check=True, text=True)
 
 def conda_installed():
