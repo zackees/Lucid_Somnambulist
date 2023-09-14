@@ -41,7 +41,7 @@ conda env create --name somn --file Lucid_Somnambulist/somn.yml
 conda init
 conda activate somn
 cd Lucid_Somnambulist
-pip install .
+pip install -e .
 cd ..
 
 # Test the installation
