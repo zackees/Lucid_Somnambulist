@@ -35,6 +35,7 @@ fi
 # Create the environment
 conda env create --name somn --file Lucid_Somnambulist/somn.yml
 conda activate somn
+cd Lucid_Somnambulist
 pip install .
 conda deactivate
 cd ..
