@@ -37,7 +37,7 @@ if conda info --envs | grep -q '^somn '; then
     conda env remove --name somn
 fi
 # Create the environment
-conda env create --name somn --file Lucid_Somnambulist/somn.yml
+conda env create --name somn --file Lucid_Somnambulist/somn.lock.yml
 conda init
 conda activate somn
 cd Lucid_Somnambulist
