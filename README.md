@@ -1,4 +1,18 @@
 
+# FORK NOTES
+
+This fork adds install scripts and version pinning of all the dependencies. This has been tested to run on Ubuntu 22.04LTS.
+
+To install this run:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | bash
+```
+
+
+# ORIGINAL NOTES
+
+
 (C) 2023 N. Ian Rinehart and the Denmark laboratory
 
 # Lucid_Somnambulist
