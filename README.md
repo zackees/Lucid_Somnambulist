@@ -1,7 +1,7 @@
 
 # FORK NOTES
 
-This fork adds install scripts and version pinning of all the dependencies. This has been tested to run on Ubuntu 22.04LTS.
+This fork adds install scripts and version pinning of most the dependencies. This has been tested to run on Ubuntu 22.04LTS.
 
 To install, run the following:
 
