@@ -3,12 +3,45 @@
 
 This fork adds install scripts and version pinning of all the dependencies. This has been tested to run on Ubuntu 22.04LTS.
 
-To install this run:
+To install, run the following:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/zackees/Lucid_Somnambulist/main/install.sh | bash
 ```
 
+Then run the following
+```bash
+conda activate somn
+somn
+```
+
+And you should see the tool activate and ask for input
+
+```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SOMN CLI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+To use the somn CLI, select an operation (e.g. add, calculate, partition, learn, or predict) followed by the
+operation-specific arguments. Documentation should describe the required arguments.
+
+Here is a simple summary/guide:
+
+
+Welcome to the somn command-line interface. 
+
+[NORMAL USE] To make predictions from pre-trained models, use:
+predict [project ID with pre-trained models] [model set ID of specific pre-trained models]  [new prediction ID]
+
+[POWER USER USE] To retrain models, two steps are required: generating a particular set of partitions, then optimizing hyperparameters
+partition-wise. These are separated so that custom preprocessing or features can be incorporated at the partition step,
+and custom modeling changes can be incorporated or tested at the modeling step. New data for training should be 
+incorporated into the dataset_yields.hdf5 file for inclusion in the retraining process.
+
+To create new partitions, use:
+partition [project ID, new or old project with no partitions] 
+
+To train a new model set on partitions, use:
+learn [project ID with partitions] [new ID for model set]
+```
 
 # ORIGINAL NOTES
 
