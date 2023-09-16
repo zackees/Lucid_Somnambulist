@@ -24,6 +24,8 @@ rm -rf molli_firstgen
 git clone https://github.com/SEDenmarkLab/molli_firstgen.git
 cd molli_firstgen
 git pull
+# Pin to the last known good checkout of molli_firstgen.git
+git checkout b04d5d19eec01225774d4cbe4a2bb355623195fe
 pip install .
 cd ..
 
