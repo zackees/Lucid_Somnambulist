@@ -19,7 +19,13 @@ Then run the command
 somn
 ```
 
-And you should see the tool activate and ask for input:
+And you should see the tool activate and ask for input.
+
+Relevant papers:
+
+This paper explains how this codebase is supposed to be used:
+
+https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63e81a7afcfb27a31f9b6e66/original/development-and-validation-of-a-chemoinformatic-workflow-for-predicting-reaction-yield-for-pd-catalyzed-c-n-couplings-with-substrate-generalizability.pdf
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SOMN CLI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
