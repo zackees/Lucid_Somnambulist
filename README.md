@@ -21,6 +21,7 @@ somn
 
 And you should see the tool activate and ask for input.
 
+```
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SOMN CLI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To use the somn CLI, select an operation (e.g. add, calculate, partition, learn, or predict) followed by the
