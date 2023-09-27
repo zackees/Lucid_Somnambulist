@@ -21,12 +21,6 @@ somn
 
 And you should see the tool activate and ask for input.
 
-Relevant papers:
-
-This paper explains how this codebase is supposed to be used:
-
-https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63e81a7afcfb27a31f9b6e66/original/development-and-validation-of-a-chemoinformatic-workflow-for-predicting-reaction-yield-for-pd-catalyzed-c-n-couplings-with-substrate-generalizability.pdf
-
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SOMN CLI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 To use the somn CLI, select an operation (e.g. add, calculate, partition, learn, or predict) followed by the
@@ -51,6 +45,13 @@ partition [project ID, new or old project with no partitions]
 To train a new model set on partitions, use:
 learn [project ID with partitions] [new ID for model set]
 ```
+
+Relevant papers:
+
+This paper explains how this codebase is supposed to be used:
+
+https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/63e81a7afcfb27a31f9b6e66/original/development-and-validation-of-a-chemoinformatic-workflow-for-predicting-reaction-yield-for-pd-catalyzed-c-n-couplings-with-substrate-generalizability.pdf
+
 
 # ORIGINAL NOTES
 
